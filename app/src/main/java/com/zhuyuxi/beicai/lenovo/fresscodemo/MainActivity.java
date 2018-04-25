@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ViewUtils.inject(this);
         requestImage();
+        
 //        Uri uri = Uri.parse(img_url01);
 //        draweeView.setImageURI(uri);
 
